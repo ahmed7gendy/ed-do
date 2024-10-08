@@ -1,0 +1,73 @@
+/* تنسيق الصفحة العامة */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* تنسيق الحاوية الرئيسية */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* تنسيق العنوان */
+h1 {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* تنسيق القائمة */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* تنسيق عناصر القائمة */
+ul li {
+  background-color: #e3f2fd;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul li:hover {
+  background-color: #bbdefb;
+}
+
+/* تنسيق الروابط */
+ul li a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: block;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+/* تنسيق الروابط بدون اسم */
+ul li a::after {
+  color: #ff5252;
+}
+/* تنسيق حقل البحث */
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
